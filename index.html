@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Waffle</title>
+</head>
+<body>
+    <header>
+    <div class="logo">
+        waffles
+    </div>
+
+    <div class="header_nav">
+        <nav class="header_nav">
+            <a class="nav-list" href="#type" >types</a>
+            <a class="nav-list" href="#cookie" >cookie</a>
+            <a class="nav-list" href="#price" >prise</a>
+            <a class="nav-list" href="#history" >history</a>
+        </nav>
+    </div>
+
+    <div id="btn_wrapper" class="btn_wrapper">
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="menu">
+            <nav>
+                <ul class="menu-list">
+
+                    <li><a class="menu-link" href="#type" > types </a></li>
+                    <li><a class="menu-link" href="#cookie" >cookie</a></li>
+                    <li><a class="menu-link" href="#price" >prise</a></li>
+                    <li><a class="menu-link" href="#history" >history</a></li>
+                </ul>
+            </nav>
+        </div>
+        <script src="script.js" defer></script>
+
+    </div>
+</header>
+
+<main>
+
+    <section>
+        <div class="intro_wrapper">
+            <img class="intro_img" src="./img/intro.png" alt="waffle">
+            <div class="intro_text">
+                I LOVE </br> waffles
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="info__block">
+                <div class="info__img-wrapper">
+                    <img class="info__img" src="img/info.png" alt="info">
+                </div>
+                <div class="info__item">
+                    <div class="info__title">
+                        Waffles one love
+                    </div>
+
+                    <div class="info__text">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
+                        predefined chunks as necessary, making this the first true generator on the Internet.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="type">
+        <div class="container">
+            <div class="title">
+                Types of waffles
+            </div>
+            <div class="type_wrapper">
+                <div class="type_block">
+                    <img src="./img/type1.png" alt="fruits waffle" class="type_img">
+                    <div class="type_text">
+                        fruits
+                    </div>
+                </div>
+
+                <div class="type_block">
+                    <img src="./img/type2.png" alt="chocolate waffle" class="type_img">
+                    <div class="type_text">
+                        chocolate
+                    </div>
+                </div>
+
+                <div class="type_block">
+                    <img src="./img/type3.png" alt="nuts waffle" class="type_img">
+                    <div class="type_text">
+                        nuts
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cookie">
+        <div class="title">
+            Cookie
+        </div>
+
+        <video  poster="./img/bg.png" id="player" width="100%" height="auto" autoplay muted loop >
+            <source src="./img/bg.mp4" type="video/mp4" >
+        </video>
+    </section>
+
+    <section id="price">
+        <div class="container">
+            <div class="title">
+                Price of waffle
+            </div>
+            <div class="prise_wrappers">
+                <div class="prise_block">
+                    <img class="prise_img" src="./img/prise1.png" alt="waffle">
+                    <div class="prise_text">
+                        <div class="prise_title">
+                            waffle & choco
+                        </div>
+                        <div class="prise_prise">
+                            $25
+                            <del>$30</del>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prise_block">
+                    <div >
+                        <img class="prise_img" src="./img/prise2.png" alt="waffle">
+                    </div>
+                    <div class="prise_text">
+                        <div class="prise_title">
+                            waffle & cream
+                        </div>
+                        <div class="prise_prise">
+                            $25
+                            <del>$30</del>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prise_block">
+                    <div class="prise_img">
+                        <img class="prise_img" src="./img/prise3.png" alt="waffle">
+                    </div>
+                    <div class="prise_text">
+                        <div class="prise_title">
+                            waffle & honey
+                        </div>
+                        <div class="prise_prise">
+                            $25
+                            <del>$30</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="history">
+        <div class="container">
+            <div class="title">
+                History
+            </div>
+            <div class="history_wrapper">
+                <div >
+                    <img class="history_img" src="./img/history.png" alt="history">
+                </div>
+
+                <div class="history_text">
+                    History It was on August 24, 1869 that Cornelius Swarthout,
+                    a resident of New York State, patented his invention - the first
+                    frying pan for baking waffles. True, on this day in America they
+                    bake not crispy waffles in the usual sense of Ukrainians, but
+                    tiny fritters cooked in a waffle iron with figured honeycombs.
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="title">
+               Voting
+            </div>
+            <div class="voting_wrapper">
+                <form class="voting">
+                    <label>
+                        <input   type="text" name="name">
+                        <div class="label__text">
+                            Name
+                        </div>
+                    </label>
+                    <label>
+                        <input  type="email" name="tel">
+                        <div class="label__text">
+                            Email
+                        </div>
+                    </label>
+
+                    <label>
+                        <div class="radio_button">
+                            <input type="radio" id="cream" name="select" value="weekend" checked />
+                            <label for="cream">Waffle & cream</label>
+                        </div>
+
+                        <div class="radio_button">
+                            <input type="radio" id="fruit" name="select" value="month" />
+                            <label for="fruit">Waffle & fruit</label>
+                        </div>
+
+                        <div class="radio_button">
+                            <input type="radio" id="choco" name="select" value="your" />
+                            <label for="choco">Waffle & choco</label>
+                        </div>
+
+                        <div class="label__text">
+                            What you favorite waffle?
+                        </div>
+                    </label>
+
+                    <label>
+                        <textarea placeholder="recipe" name="message"></textarea>
+                        <div class="label__text">
+                            Share your favorite waffle recipe
+                        </div>
+                    </label>
+                    <button type="submit">Send</button>
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="logo">
+        waffles
+    </div>
+
+    <div >
+        <nav class="footer_nav">
+            <a class="nav-list" href="#type" >types</a>
+            <a class="nav-list" href="#cookie" >cookie</a>
+            <a class="nav-list" href="#price" >prise </a>
+            <a class="nav-list" href="#history" >history </a>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
